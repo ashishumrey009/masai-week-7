@@ -1,25 +1,50 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar.js' 
+import Cards from './components/cardfile.js'
+import Unicards from './components/universalrating.js'
+import FirstFtr from './components/featuresection.js'
+import SecondFtr from './components/secondfeature.js'
+import FourthFtr from './components/fourthfeature.js'
+import StressFtr from './components/stressfeature.js'
+import CarIns from './components/carinsurance.js'
+import CarInsUn from './components/carinsnotcover.js'
+import Carclm from './components/carclaim.js'
+import ClaimPrcs from './components/claimprocess.js'
+import Settle from './components/settlement.js'
+import Footer from './components/footer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    {/* Header File */}
+      <Navbar />
+    {/* Card Section*/}
+      <Cards />
+    {/* Rating Section*/}
+       <Unicards />
+    {/* First Feature*/ }  
+      <FirstFtr />
+    {/* Second Feature*/}
+       <SecondFtr />
+    {/*Third Feature */}
+       <FourthFtr />
+   {/* stress feature*/ }
+       <StressFtr />
+   {/* Car Insurance*/ }
+       <CarIns />
+   {/*  Car Insurance not covered*/ }
+       <CarInsUn />
+   {/* car claims*/}
+       <Carclm />
+   {/* car claims Process*/}
+     <ClaimPrcs />
+   {/* settlement */}
+      <Settle />
+   {/* footer */}
+   <Footer />
+</div>
   );
 }
 
