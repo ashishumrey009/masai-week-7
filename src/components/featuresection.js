@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 class FirstFeature extends React.Component{
 render(){
     return(

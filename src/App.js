@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Navbar from './components/navbar.js' 
 import Cards from './components/cardfile.js'
 import Unicards from './components/universalrating.js'

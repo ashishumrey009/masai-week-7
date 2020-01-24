@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 //import person from './components/person3.jpg';
 class RatingUni extends React.Component{
 render(){
